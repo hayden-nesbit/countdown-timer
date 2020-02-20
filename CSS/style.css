@@ -1,0 +1,19 @@
+html {
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+    font-family: monospace;
+}
+
+#count {
+    padding-bottom: 10px;
+    padding-top: 200px;
+    margin: 0px;
+    text-align: center;
+    font-size: 85px;
+    color: black;
+}
+
+
+
