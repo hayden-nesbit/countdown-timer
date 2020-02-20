@@ -3,7 +3,7 @@ var int = setInterval(myTimer, 1000);
 //This sets the interval of my myTimer function to repeat (count down) every 1 second
 
 function myTimer() {
-    var Future = new Date("Feb 20, 2020 18:16:00"); //This sets the variable of the date to be counted down to
+    var Future = new Date("May 15, 2020 18:16:00"); //This sets the variable of the date to be counted down to
     var now = new Date(); //This gets the current date
     var diff = Future.getTime() - now.getTime(); //This gets the difference between our future date and the current date
 
