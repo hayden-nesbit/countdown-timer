@@ -38,24 +38,12 @@ function myTimer() {
     }
 
     
-
-    // var hours = days / (1000 * 60 * 60 * 24);
-    // var minutes = hours / (1000 * 60 * 60);
-    // var seconds = minutes / (1000 * 60);
-
-
-    //This runs an if statement to see if 'days' is less than or greater than '1', then pushes and concatenates the day, hour, minute, seconds to the HTML in the "count" Id
-
     document.getElementById("count").innerHTML = years + "y " + months + "mo " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
 
     console.log(diff)
-    if (diff < 0) { //This if statement checks for when 'count' (the difference between the current date and the new date) equals zero. When it is ===0 setTimeout runs.
+    if (diff < 0) { //This if statement checks for when 'count' (the difference between the current date and the new date) is less than zero. When it is < EndingInt runs.
         EndingInt();
     }
-
-    //     setTimeout(stopTimer, diff); //setTimeout runs the stopTimer function at an interval of 'diff' (which is now zero, so it runs once)
-    //     function stopTimer() { //The stopTimer function runs clearInterval, which stops the setInterval running on variable 'int' (which controls the second count, so the timer stops)
-
 
 }
 
